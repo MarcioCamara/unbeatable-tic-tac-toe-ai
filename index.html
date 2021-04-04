@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unbeatable Tic Tac Toe</title>
+
+    <link href="http://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Unbeatable Tic Tac Toe AI</h1>
+    </div>
+
+    <div class="container">
+        <div class="ui-container">
+            <select name="dificculty" id="dificculty">
+                <!-- <option value="easy">Easy</option>
+                <option value="normal">Normal</option> -->
+                <option value="hard">Hard</option>
+            </select>
+
+            <select name="theme" id="theme">
+                <option value="icon">Icon</option>
+                <option value="letter">Letter</option>
+                <option value="image">Image</option>
+            </select>
+
+            <button onclick="startGame()">Replay</button>
+        </div>
+
+        <div class="game-container">
+            <table>
+                <tr>
+                    <td class="cell" id="0"></td>
+                    <td class="cell" id="1"></td>
+                    <td class="cell" id="2"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="3"></td>
+                    <td class="cell" id="4"></td>
+                    <td class="cell" id="5"></td>
+                </tr>
+
+                <tr>
+                    <td class="cell" id="6"></td>
+                    <td class="cell" id="7"></td>
+                    <td class="cell" id="8"></td>
+                </tr>
+            </table>
+
+            <div class="end-game" id="endGame">
+                <div id="text"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h6>developed by <a href="https://marciocamara.github.io" target="_blank">Marcio Câmara</a></h6>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
