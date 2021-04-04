@@ -68,8 +68,9 @@ function turn(squareId, player) {
     if (theme === 'image') {
         const img = document.createElement('img');
         img.src = player.image;
-        img.style.height = '100px';
-        img.style.width = '100px';
+        img.className = 'player-image';
+        // img.style.height = '100px';
+        // img.style.width = '100px';
 
         document.getElementById(squareId).appendChild(img);
     } else if (theme === 'letter') {

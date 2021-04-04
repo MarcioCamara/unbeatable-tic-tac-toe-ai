@@ -48,6 +48,15 @@ a {
         width: 120px !important;
         font-size: 72px !important;
     }
+    .end-game {
+        display: none;
+        width: 240px !important;
+        height: 120px !important;
+    }
+    .player-image {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .cell {
@@ -92,10 +101,15 @@ table tr td:last-child {
     border-right: 0;
 }
 
+.player-image {
+    width: 16vw;
+    height: 16vw;
+}
+
 .end-game {
     display: none;
-    width: 240px;
-    height: 120px;
+    width: 60vw;
+    height: 20vw;
     background-color: rgba(153, 63, 205, 0.8);
     position: absolute;
     color: #ffffff;
